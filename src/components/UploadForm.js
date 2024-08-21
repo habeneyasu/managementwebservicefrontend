@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 import { uploadTTLFile } from '../services/TtlFileUploadService';
+import '../style.css';
 
 
 

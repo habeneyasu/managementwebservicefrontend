@@ -1,0 +1,65 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.UploadForm {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  text-align: center;
+}
+
+.UploadForm h1 {
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #212529;
+  font-weight: 700;
+  border-bottom: 3px solid #007bff;
+  padding-bottom: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.UploadForm input[type="file"] {
+  margin-bottom: 25px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ced4da;
+  width: 100%;
+  font-size: 16px;
+}
+
+.UploadForm button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  width: 100%;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.UploadForm button:hover {
+  background-color: #0056b3;
+}
+
+.UploadForm p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #495057;
+}
